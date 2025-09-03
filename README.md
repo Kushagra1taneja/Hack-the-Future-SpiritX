@@ -57,37 +57,3 @@ npm run dev
 
 ## Contributing
 Pull requests are welcome! Please follow best practices and add meaningful commit messages.
-
-## License
-MIT
-2. Your repository should contain:
-    - `README.md`: Instructions to run your project.
-    - Source code and necessary files.
-    - Documentation (if any).
-3. 4-5 Page PPT Presentation summarizing your solution to make it easier for judges to evaluate.
-   -  Slide 1: Title, team name, and problem statement.
-   -  Slide 2: Objective and solution overview.
-   -  Slide 3: Key features and technologies used.
-   -  Slide 4: solutions implemented.
-   -  Slide 5: Challenges faced.
-
-⚠️ **Note:** Only PRs submitted before the hackathon deadline will be considered. Late submissions will not be accepted.
-
----
-
-## 🔍 **Evaluation Criteria**
-- **Innovation & Creativity:** Uniqueness and originality of the solution.
-- **Functionality & Implementation:** Proper execution and working functionality.
-- **Code Quality:** Clean, readable, and maintainable code.
-- **Presentation & Documentation:** Clear instructions and explanations.
-
----
-
-## ⏱️ **Hackathon Timeline**
-- **Start:** [28/03/2025 5PM]
-- **End:** [30/03/2025 5AM]
-- **Duration:** 36 hours (continuous online mode)
-
----
-
-🚀 **Good luck and happy hacking!** 🎯
