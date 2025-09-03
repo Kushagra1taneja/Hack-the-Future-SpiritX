@@ -1,43 +1,65 @@
-# Hack the Future | Horizon 2025, IIITV-ICD
 
-Welcome to **Hack the Future**, the 36-hour online hackathon organized by Coding Club DCodr as part of **Horizon 2025**, the annual technical fest of **IIITV-ICD**. This is your chance to collaborate, innovate, and build creative solutions to real-world problems.
+# Alumni Connect Platform
 
-**Once the hackathon begins, please follow the instructions below carefully.**
+Alumni Connect Platform is a full-stack web application designed to strengthen connections between alumni and students. It facilitates mentorship, career guidance, professional networking, and event management. The project features a modern React frontend and a Node.js/Express backend with real-time chat, file uploads, and secure authentication.
 
----
+## Features
+- Alumni and student authentication
+- Real-time messaging (Socket.io)
+- Event creation and management
+- File/image uploads (Cloudinary)
+- Follow and mentorship system
+- Admin controls
+- Responsive UI with React, TailwindCSS, and Vite
 
-## **Instructions for Participants**
+## Installation & Setup
 
-### ✅ **Step 1: Fork the Repository**
-1. Once problem statements are available. Click the **Fork** button at the top right corner to create a copy of this repository in your GitHub account.
-2. Clone the forked repository to your local machine using the command:
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
 
+### 1. Clone the Repository
 ```bash
-git clone <your-forked-repo-link>
+git clone https://github.com/Kushagra1taneja/Hack-the-Future-SpiritX.git
+cd Hack-the-Future-SpiritX
 ```
 
-### ✅ **Step 2: Select a Problem Statement**
-- Review the provided problem statements in the PROBLEMS.md.
-- Choose any one problem statement to work on.
-- Work directly on the `main` branch to ensure your final work is on the main branch, as the organizers will evaluate your project every 6 hours.
-
-### ✅ **Step 3: Project Development**
-- Develop your project locally.
-- Commit your changes frequently with meaningful messages:
-
+### 2. Backend Setup
 ```bash
-git add .
-git commit -m "Initial commit with base project setup"
+cd backend
+npm install
+# Create a .env file with your MongoDB URI and Cloudinary credentials
+# Example .env:
+# MONGO_URI=your_mongo_uri
+# CLOUDINARY_CLOUD_NAME=your_cloud_name
+# CLOUDINARY_API_KEY=your_api_key
+# CLOUDINARY_API_SECRET=your_api_secret
+npm start
 ```
 
-- Push your changes to your forked repository:
-
+### 3. Frontend Setup
 ```bash
-git push origin main
+cd ../frontend
+npm install
+npm run dev
+# The app will run at http://localhost:5173/
 ```
 
-### ✅ **Step 4: Submission**
-1. Create a **Pull Request (PR)** to this repository before the hackathon ends.
+## Usage
+- Register/login as alumni or student
+- Explore events, connect with users, send messages
+- Admins can manage users and events
+
+## Project Structure
+- `backend/` - Node.js/Express API, Socket.io, MongoDB models
+- `frontend/` - React app (Vite, TailwindCSS)
+- `uploads/` - Uploaded files/images
+
+## Contributing
+Pull requests are welcome! Please follow best practices and add meaningful commit messages.
+
+## License
+MIT
 2. Your repository should contain:
     - `README.md`: Instructions to run your project.
     - Source code and necessary files.
