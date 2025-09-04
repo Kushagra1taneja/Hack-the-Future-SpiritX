@@ -8,7 +8,7 @@ const Footer = () => {
                 
                 {/* ----- Left Section ------ */}
                 <div>
-                    <img className='mb-5 w-40' src={assets.Logo} alt="" />
+                    <img className='mb-5 w-40' src={assets.Logo} alt="University Logo" />
                     <p className='w-full md:w-2/3 text-gray-600 leading-6'>
                     Connecting alumni, empowering students, and fostering a vibrant professional community.
                     </p>

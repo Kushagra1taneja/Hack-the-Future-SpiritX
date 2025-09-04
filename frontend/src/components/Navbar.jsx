@@ -33,7 +33,7 @@ function Navbar() {
       <img
         className="w-44 cursor-pointer"
         src={assets.Logo}
-        alt=""
+        alt="University Logo"
         data-aos="zoom-in"
         data-aos-duration="800"
         onClick={() => navigate("/")}

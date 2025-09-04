@@ -1,4 +1,4 @@
-import Logo from './logo.png';
+import Logo from './university_logo.webp';
 import BannerImage from './Banner 1.png';
 import AboutImage from './About.png';
 import Icon01 from './icon-01.png';

@@ -21,7 +21,7 @@ const Sidebar = ({ setActiveSection, activeSection }) => {
       <div className="flex justify-center py-5">
         <img
           src={assets.Logo}
-          alt="Logo"
+          alt="University Logo"
           className="h-16 w-auto"
           onClick={() => navigate('/')}
         />
