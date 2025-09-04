@@ -1,5 +1,5 @@
 const Alumni = require('../Models/alumni'); // Alumni model
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cloudinary = require('cloudinary').v2;
 const { validationResult } = require("express-validator");
